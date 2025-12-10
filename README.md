@@ -20,6 +20,10 @@ Casual riders ride twice as long as members.
 
 **2. Weekly Usage Patterns**
 Casual riders dominate the weekends.
-![Weekly Usage Chart](PASTE_YOUR_WEEKLY_CHART_LINK_HERE)
+![Weekly Usage Chart]https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true
+
+**3. Seasonality**
+Ridership peaks in July/August.
+![Seasonality Chart](PASTE_YOUR_SEASONALITY_CHART_LINK_HERE)
 
 Check out the interactive dashboard on Tableau Public: https://public.tableau.com/views/CyclisticProject_17653951029510/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
