@@ -13,4 +13,13 @@ Key Insight: Casual riders primarily use the service for weekend leisure, while 
 
 
 ### Visualizations
+
+**1. Average Ride Length**
+Casual riders ride twice as long as members.
+![Ride Length Chart]https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=true
+
+**2. Weekly Usage Patterns**
+Casual riders dominate the weekends.
+![Weekly Usage Chart](PASTE_YOUR_WEEKLY_CHART_LINK_HERE)
+
 Check out the interactive dashboard on Tableau Public: https://public.tableau.com/views/CyclisticProject_17653951029510/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
