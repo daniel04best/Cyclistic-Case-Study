@@ -18,7 +18,7 @@ Cyclistic’s Director of Marketing believes the company’s future success depe
 
 **My Objective**
 
-I have been tasked with analyzing 12 months of historical trip data to identify behavioral trends. My goal is to produce clear, data-driven insights and visualizations that will help the executive team design a new marketing strategy to convert casual riders into loyal annual members.
+I have been tasked with analyzing 12 months of historical trip data to identify behavioral trends. (Data: [Divvy Tripdata (S3 Index)]({{ site.data_sources.divvy_link }})) My goal is to produce clear, data-driven insights and visualizations that will help the executive team design a new marketing strategy to convert casual riders into loyal annual members.
 
 **Tools Used:**
 
