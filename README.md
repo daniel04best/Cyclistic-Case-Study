@@ -120,7 +120,7 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **2. Weekly Usage Patterns**
 **Casual riders dominate the weekends.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="350" height="800" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="350" height="1000" alt="Weekly Usage">
 </p>
 <br>
 
@@ -128,7 +128,7 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **Ridership peaks in July/August.**
 
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%203.png?raw=true" width="350" height="800 alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%203.png?raw=true" width="350" height="1000" alt="Weekly Usage">
 </p>
 <br>
 
