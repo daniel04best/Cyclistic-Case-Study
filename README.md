@@ -1,5 +1,7 @@
 **Google Data Analytics Capstone: Cyclistic Bike-Share Analysis**
 
+![Case-Study]([https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=true](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/224968385-9521ab10-d278-4595-a829-08b4f1c645be.png?raw=true))
+
 **Introduction**
 
 This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I assume the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
