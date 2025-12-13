@@ -7,3 +7,5 @@ social:
   email_address: "daniel04best@gmail.com"
 data_sources:
   divvy_link: "https://divvy-tripdata.s3.amazonaws.com/index.html"
+visualizations:
+  tableau_link: "https://public.tableau.com/views/CyclisticProject_17653951029510/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
