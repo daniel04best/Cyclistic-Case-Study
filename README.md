@@ -2,6 +2,13 @@
 
 ![Case-Study](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/224968385-9521ab10-d278-4595-a829-08b4f1c645be.png?raw=true)
 
+![SQL](https://img.shields.io/badge/Language-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tool-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Google](https://img.shields.io/badge/Certificate-Google%20Data%20Analytics-4285F4?style=for-the-badge&logo=google)
+[![Resume](https://img.shields.io/badge/Download-Resume-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](YOUR_RESUME_LINK_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({{ site.social.linkedin_url }})
+[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:{{ site.social.email_address }})
+
 **Introduction**
 
 This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I assume the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
@@ -17,8 +24,6 @@ I have been tasked with analyzing 12 months of historical trip data to identify 
 **Tools Used:**
 
 - SQL (BigQuery): For data warehousing, cleaning, and merging 5.7 million rows of data.
-
-- R: For statistical validation and exploratory analysis.
 
 - Tableau: For creating interactive dashboards and visualizing usage trends.
 
