@@ -76,7 +76,7 @@ Two new columns required for analysis were created:
 - ride_length_m: Calculated by finding the time difference between ended_at and started_at in minutes (using TIMESTAMP_DIFF).
 - day_of_week: Extracted the day of the week from the started_at column (using EXTRACT(DAYOFWEEK FROM...)).
 
-- 
+  
 **Filtering:**
 The dataset was filtered to remove outliers and null values:
 - Removed Nulls: Excluded rows where start_station_name or end_station_name were missing (IS NOT NULL).
