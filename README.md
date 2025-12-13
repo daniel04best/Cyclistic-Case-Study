@@ -107,7 +107,10 @@ By grouping the data by date and user type within the database, I pre-calculated
 
 **Casual vs Member Total Rides:**
 
-![total_rides](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%204%20(1).png?raw=true)
+<p align="center">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%204%20(1).png?raw=true" width="300" height="300" alt="Weekly Usage">
+</p>
+<br>
 
 **Casual vs Member Summary Data:**
 
