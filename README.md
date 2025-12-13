@@ -70,8 +70,16 @@ Two new columns required for analysis were created:
 The dataset was filtered to remove outliers and null values:
 - Removed Nulls: Excluded rows where start_station_name or end_station_name were missing (IS NOT NULL).
 - Removed Outliers: Filtered out rides with a duration less than 1 minute (likely false starts or docking errors) and rides over 24 hours (1440 minutes). 
-This cleaning process ensured the integrity of the data by creating a final table only with rows that met the **necessary criteria** (no nulls and valid duration). 
+This cleaning process ensured the integrity of the data by creating a final table only with rows that met the **necessary criteria** (no nulls and valid duration).
 
+
+**Data Field Types**
+
+![data_fields](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203120.png?raw=true)
+
+**Example SQL Data**
+
+![sql_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true)
 
 **Analyze Phase:**
 
