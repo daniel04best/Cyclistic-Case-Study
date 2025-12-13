@@ -128,7 +128,9 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 </p>
 <br>
 
-Check out the interactive dashboard on Tableau Public: https://public.tableau.com/views/CyclisticProject_17653951029510/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+**Check out the interactive dashboard on Tableau Public:**
+https://public.tableau.com/views/CyclisticProject_17653951029510/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
 
