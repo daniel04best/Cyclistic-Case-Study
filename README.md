@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({{ site.social.linkedin_url }})
 
 
-***📒Introduction***
+**📒Introduction**
 
 This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I assume the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
 
@@ -27,7 +27,7 @@ I have been tasked with analyzing 12 months of historical trip data to identify 
 - Tableau: For creating interactive dashboards and visualizing usage trends.
 
 
-***❓Ask Phase***
+**❓Ask Phase**
 
 **What is the business problem?**
 
@@ -47,7 +47,7 @@ My insights will reveal the specific behavioral differences between how annual m
 
 "The business task is to analyze Cyclistic's historical usage data to identify distinct behavioral differences between annual members and casual riders. These insights will be used to support the marketing team in designing a data-driven strategy to convert casual riders into profitable annual members."
 
-***✅Prepare Phase***
+**✅Prepare Phase**
 
 **Data Location and Source:**
 I used Cyclistic’s **historical trip data** to analyse and identify trends. The data is publicy available. The data is organized in 12 monthly CSV files covering historical trip data. 
@@ -81,7 +81,7 @@ This cleaning process ensured the integrity of the data by creating a final tabl
 
 ![sql_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true)
 
-***📑Analyze Phase:***
+**📑Analyze Phase:**
 
 **Analysis and Key Findings**
 
@@ -121,7 +121,7 @@ By grouping the data by date and user type within the database, I pre-calculated
 ![daysoftheweek_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-10%20162046.png?raw=true)
 
 
-***✨Share Phase:***
+**✨Share Phase:**
 
 **Answering the Business Question:**
 
@@ -170,7 +170,7 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 
 
 
-***🌐Act Phase:*** 
+**🌐Act Phase:**
 
 **Final Conclusion**
 Based on the analysis, the difference between the two groups is clear: Cyclistic serves two distinct markets.
