@@ -1,4 +1,4 @@
-**Google Data Analytics Capstone: Cyclistic Bike-Share Analysis**
+
 
 ![Case-Study](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/224968385-9521ab10-d278-4595-a829-08b4f1c645be.png?raw=true)
 
