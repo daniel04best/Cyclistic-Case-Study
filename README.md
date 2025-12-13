@@ -105,6 +105,10 @@ To convert casual riders, marketing strategies should not focus on "utility" or 
 Due to the significant volume of the dataset (approximately 5.7 million rows), directly importing raw data into Tableau Public caused performance latency and file-size constraints. To resolve this, I performed SQL-based aggregation in BigQuery to create a streamlined summary table.
 By grouping the data by date and user type within the database, I pre-calculated key metrics (ride count and average duration). This reduced the dataset size from over 1 GB to less than 1 MB while preserving the daily granularity required for analysis, ensuring the final dashboard is both responsive and efficient.
 
+**Casual vs Member Total Rides:**
+
+![total_rides](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%204%20(1).png?raw=true)
+
 **Casual vs Member Summary Data:**
 
 ![member_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-10%20155224.png?raw=true)
@@ -138,14 +142,14 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **1. Average Ride Length**
 **Casual riders ride twice as long as members.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="375" height="600" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="320" height="600" alt="Weekly Usage">
 </p>
 <br>
 
 **2. Weekly Usage Patterns**
 **Casual riders dominate the weekends.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="600" height="550" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="520" height="550" alt="Weekly Usage">
 </p>
 <br>
 
