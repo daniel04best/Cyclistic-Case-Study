@@ -134,7 +134,7 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 
 
 **Check out the interactive dashboard on Tableau Public:**
- (Data: [TableauSite]({{ site.visualizations.tableau_public }}))
+ (Data: [TableauSite]({{ site.visualizations.tableau_link }}))
 
 
 
