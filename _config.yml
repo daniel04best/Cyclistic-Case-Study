@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: Cyclistic Case Study
 description: Google Data Analytics Capstone Project by Daniel Best
 show_downloads: false
+social:
+  linkedin_url: "https://www.linkedin.com/in/daniel-best-6b3a2029a/"
+  email_address: "daniel04best@gmail.com"
