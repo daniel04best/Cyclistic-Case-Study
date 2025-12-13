@@ -89,7 +89,12 @@ Due to the significant volume of the dataset (approximately 5.7 million rows), d
 By grouping the data by date and user type within the database, I pre-calculated key metrics (ride count and average duration). This reduced the dataset size from over 1 GB to less than 1 MB while preserving the daily granularity required for analysis, ensuring the final dashboard is both responsive and efficient.
 
 **Casual vs Member Summary Data:**
+
 ![member_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-10%20155224.png?raw=true)
+
+**Days of the Week Data Comparison (Casual vs Member):**
+
+![daysoftheweek_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-10%20162046.png?raw=true)
 
 
 **Share Phase:**
