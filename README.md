@@ -113,14 +113,14 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **1. Average Ride Length**
 **Casual riders ride twice as long as members.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="450" height="600" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="375" height="600" alt="Weekly Usage">
 </p>
 <br>
 
 **2. Weekly Usage Patterns**
 **Casual riders dominate the weekends.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="700" height="550" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="600" height="550" alt="Weekly Usage">
 </p>
 <br>
 
