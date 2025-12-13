@@ -1,6 +1,6 @@
 **Google Data Analytics Capstone: Cyclistic Bike-Share Analysis**
 
-![Case-Study]([https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=true](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/224968385-9521ab10-d278-4595-a829-08b4f1c645be.png?raw=true))
+![Case-Study](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/224968385-9521ab10-d278-4595-a829-08b4f1c645be.png?raw=true)
 
 **Introduction**
 
@@ -109,14 +109,14 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **1. Average Ride Length**
 **Casual riders ride twice as long as members.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="600" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="250" height="400" alt="Weekly Usage">
 </p>
 <br>
 
 **2. Weekly Usage Patterns**
 **Casual riders dominate the weekends.**
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="600" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="250" height="400" alt="Weekly Usage">
 </p>
 <br>
 
@@ -124,7 +124,7 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **Ridership peaks in July/August.**
 
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%203.png?raw=true" width="600" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%203.png?raw=true" width="250" height="400" alt="Weekly Usage">
 </p>
 <br>
 
