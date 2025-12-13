@@ -6,7 +6,7 @@
 ![Tableau](https://img.shields.io/badge/Tool-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Google](https://img.shields.io/badge/Certificate-Google%20Data%20Analytics-4285F4?style=for-the-badge&logo=google)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({{ site.social.linkedin_url }})
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:{{ site.social.email_address }})
+
 
 **Introduction**
 
@@ -174,3 +174,7 @@ Casual riders’ ride length is about twice as long on average as members. By in
 
 Since the data reveals that casual ridership decreases during the workweek but spikes up on the weekends, the marketing team should shift the majority of the digital ad budget to run right before the weekend, like Thursday, Friday or Saturday mornings. This places ads in front of users right when they are planning their weekend activities. These ads must present specific financial value propositions such as temporary discounts on memberships that will incentivize casual riders to consider switching to a membership. 
 
+
+
+
+Contact: daniel04best@gmail.com 
