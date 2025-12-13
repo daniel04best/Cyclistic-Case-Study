@@ -1,5 +1,5 @@
 ---
-remote_theme: amitmerchant/reverie
+theme: jekyll-theme-cayman
 title: Cyclistic Case Study
 description: Google Data Analytics Capstone Project by Daniel Best
 show_downloads: false
