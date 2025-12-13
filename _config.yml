@@ -5,3 +5,5 @@ show_downloads: false
 social:
   linkedin_url: "https://www.linkedin.com/in/daniel-best-6b3a2029a/"
   email_address: "daniel04best@gmail.com"
+data_sources:
+  divvy_link: "https://divvy-tripdata.s3.amazonaws.com/index.html"
