@@ -31,8 +31,10 @@ I have been tasked with analyzing 12 months of historical trip data to identify 
 
 **What is the business problem?**
 
-The Director of Marketing, Lily Moreno believes the company's future success depends on maximizing the number of annual memberships. The problem is that while casual riders are already aware of Cyclistic and use the service for their mobility needs, they have not committed to an annual plan. The goal is to determine how to effectively convert these casual riders into annual members, as financial analysts have concluded members are much more profitable.
-How can my insights drive business decisions? 
+The Director of Marketing, Lily Moreno believes the company's future success depends on maximizing the number of annual memberships. The problem is that while casual riders are already aware of Cyclistic and use the service for their mobility needs, they have **not committed** to an annual plan. The goal is to determine how to effectively convert these casual riders into annual members, as financial analysts have concluded members are much more profitable.
+
+**How can my insights drive business decisions?** 
+
 My insights will reveal the specific behavioral differences between how annual members and casual riders use the bikes. By understanding these differences (such as trip duration, frequency, or preferred days of the week), the marketing team can design a targeted strategy that specifically appeals to casual riders to encourage them to join. High-quality insights and visualizations are required to get approval from the Cyclistic executive team.
 
 **Key Stakeholders**
@@ -47,21 +49,28 @@ My insights will reveal the specific behavioral differences between how annual m
 
 **Prepare Phase**
 
-Data Location and Source: I used Cyclistic’s historical tripo data to analyse and identify trends. The data is publicy available. The data is organized in 12 monthly CSV files covering historical trip data. 
-Integrity: The data is first-party data collected directly by Cyclistic ensuring reliability and accuracy for identifying patterns. It covers a full calendar year, allowing to analyse seasonality and includes start/end times, station names and bike types. 
+**Data Location and Source:**
+I used Cyclistic’s **historical trip data** to analyse and identify trends. The data is publicy available. The data is organized in 12 monthly CSV files covering historical trip data. 
+**Integrity:** The data is first-party data collected directly by Cyclistic ensuring reliability and accuracy for identifying patterns. It covers a full calendar year, allowing to analyse seasonality and includes start/end times, station names and bike types. 
 Privacy: All riders’ PII (personally identifiable information) has been removed, such as connections to credit card numbers. Due to this anonymity restriction, I cannot track if a casual rider is the same person taking multiple trips or different people. 
-I downloaded the 12 zip files containing data from each month of the year 2024 through the Divvy Trip Data website. 
-I created a folder on my computer named Cyclicstic_Project. Inside I created 01_Raw_Data and 02_Cleaned_Data so I could have an original copy of the raw data and use the second to edit and clean the data. 
-Process Phase
+
+I downloaded the **12 zip files** containing data from each month of the year 2024 through the Divvy Trip Data website (Data: [Divvy Tripdata (S3 Index)]({{ site.data_sources.divvy_link }})). 
+I created a folder on my computer named Cyclicstic_Project. Inside I created 01_Raw_Data and 02_Cleaned_Data so I could have an **original copy of the raw data** and use the second to edit and clean the data. 
+
+**Process Phase**
+
 For this phase of the project I chose different tools for different tasks. Because Excel has a limited number of rows that it can process, I chose to use SQL through the BigQuery interface to clean the data. 
-I merged all 12 monthly CSV files into a single table using a Google Cloud Storage bucket and creating a table on BigQuery with that bucket. 
+I merged all 12 monthly CSV files into a single table using a **Google Cloud Storage bucket** and creating a table on BigQuery with that bucket. 
+
 Two new columns required for analysis were created:
 - ride_length_m: Calculated by finding the time difference between ended_at and started_at in minutes (using TIMESTAMP_DIFF).
 - day_of_week: Extracted the day of the week from the started_at column (using EXTRACT(DAYOFWEEK FROM...)).
-Filtering: The dataset was filtered to remove outliers and null values:
+- 
+**Filtering:**
+The dataset was filtered to remove outliers and null values:
 - Removed Nulls: Excluded rows where start_station_name or end_station_name were missing (IS NOT NULL).
 - Removed Outliers: Filtered out rides with a duration less than 1 minute (likely false starts or docking errors) and rides over 24 hours (1440 minutes). 
-This cleaning process ensured the integrity of the data by creating a final table only with rows that met the necessary criteria (no nulls and valid duration). 
+This cleaning process ensured the integrity of the data by creating a final table only with rows that met the **necessary criteria** (no nulls and valid duration). 
 
 
 **Analyze Phase:**
