@@ -39,14 +39,6 @@ My analysis reveals that Cyclistic serves two distinct markets: **Commuters** (A
 **The Strategy:**
 To convert Casual Riders, marketing must pivot from selling "commuting utility" to selling **"weekend entertainment."** Based on the data, I recommend the following three actions:
 
-## 🚀 Executive Summary: Strategic Recommendations
-
-**The Insight:**
-My analysis reveals that Cyclistic serves two distinct markets: **Commuters** (Annual Members) who ride for utility during the week, and **Leisure Users** (Casual Riders) who ride for entertainment on weekends.
-
-**The Strategy:**
-To convert Casual Riders, marketing must pivot from selling "commuting utility" to selling **"weekend entertainment."** Based on the data, I recommend the following three actions:
-
 **1** - Launch a Targeted Commuter Trial: Offer a one-month free trial in June (a peak month) to Casual Riders, incentivizing them to shift from weekend leisure trips to weekday commuting habits.
 
 **2** - Gamify the App to Drive Conversion: Introduce challenges (e.g., "Ride 15 miles") with rewards that unlock membership discounts, leveraging Casual Riders' longer trip durations to build loyalty.
