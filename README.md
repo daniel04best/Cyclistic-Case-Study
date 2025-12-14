@@ -136,11 +136,8 @@ The dataset was filtered to remove outliers and null values:
 
 **Example SQL Data**
 
-<br>
-<p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true" width="1450" height="300" alt="Weekly Usage">
-</p>
-<br>
+![sql_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true)
+
 <br>
 
 **📑Analyze Phase:**
@@ -202,7 +199,7 @@ By grouping the data by date and user type within the database, I pre-calculated
 <br>
 
 <p align="center">
-  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%204%20(1).png?raw=true" width="300" height="300" alt="Weekly Usage">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%204%20(1).png?raw=true" width="200" height="200" alt="Weekly Usage">
 </p>
 <br>
 <br>
