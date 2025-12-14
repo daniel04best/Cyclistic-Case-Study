@@ -50,7 +50,7 @@ To convert Casual Riders, marketing must pivot from selling "commuting utility" 
 
 **2** - Gamify the App to Drive Conversion: Introduce challenges (e.g., "Ride 15 miles") with rewards that unlock membership discounts, leveraging Casual Riders' longer trip durations to build loyalty.
 
-**3** - Optimize Ad Timing for Weekends: Shift digital ad spend to Thursday, Friday, and Saturday mornings—when Casual Riders are planning their weekends—focusing on the financial value of membership.
+**3** - Optimize Ad Timing for Weekends: Shift digital ad spending to Thursday, Friday, and Saturday mornings—when Casual Riders are planning their weekends—focusing on the financial value of membership.
 <br>
 <br>
 
