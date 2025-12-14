@@ -10,44 +10,67 @@
 
 **📒Introduction**
 
-This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I assume the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
+This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I play the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
+
 
 
 **The Scenario**
 
-Cyclistic’s Director of Marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, the marketing team needs to understand how Casual Riders and Annual Members use Cyclistic bikes differently.
+Cyclistic’s Director of Marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, the marketing team needs to understand how Casual Riders and Annual Members use the service differently. 
 
 
 **My Objective**
 
-I have been tasked with analyzing 12 months of historical trip data to identify behavioral trends. (Data: [Divvy Tripdata (S3 Index)]({{ site.data_sources.divvy_link }})) My goal is to produce clear, data-driven insights and visualizations that will help the executive team design a new marketing strategy to convert casual riders into loyal annual members.
+The task is to analyze 12 months of historical trip data to identify behavioral trends. (Data: [Divvy Tripdata (S3 Index)]({{ site.data_sources.divvy_link }})) My goal is to produce data-driven insights and visualizations that will help the executive team create a new marketing strategy to convert casual riders into loyal annual members.
 
 
 **Tools Used:**
 
-- SQL (BigQuery): For data warehousing, cleaning, and merging 5.7 million rows of data.
+- SQL (BigQuery): For data storage, cleaning, and merging 5.7 million rows of data.
 
 - Tableau: For creating interactive dashboards and visualizing usage trends.
 
+
+## 🚀 Executive Summary: Strategic Recommendations
+
+**The Insight:**
+My analysis reveals that Cyclistic serves two distinct markets: **Commuters** (Annual Members) who ride for utility during the week, and **Leisure Users** (Casual Riders) who ride for entertainment on weekends.
+
+**The Strategy:**
+To convert Casual Riders, marketing must pivot from selling "commuting utility" to selling **"weekend entertainment."** Based on the data, I recommend the following three actions:
+
+## 🚀 Executive Summary: Strategic Recommendations
+
+**The Insight:**
+My analysis reveals that Cyclistic serves two distinct markets: **Commuters** (Annual Members) who ride for utility during the week, and **Leisure Users** (Casual Riders) who ride for entertainment on weekends.
+
+**The Strategy:**
+To convert Casual Riders, marketing must pivot from selling "commuting utility" to selling **"weekend entertainment."** Based on the data, I recommend the following three actions:
+
+**1** - Launch a Targeted Commuter Trial: Offer a one-month free trial in June (a peak month) to Casual Riders, incentivizing them to shift from weekend leisure trips to weekday commuting habits.
+
+**2** - Gamify the App to Drive Conversion: Introduce challenges (e.g., "Ride 15 miles") with rewards that unlock membership discounts, leveraging Casual Riders' longer trip durations to build loyalty.
+
+**3** - Optimize Ad Timing for Weekends: Shift digital ad spend to Thursday, Friday, and Saturday mornings—when Casual Riders are planning their weekends—focusing on the financial value of membership.
 
 **❓Ask Phase**
 
 **What is the business problem?**
 
-The Director of Marketing, Lily Moreno believes the company's future success depends on maximizing the number of annual memberships. The problem is that while casual riders are already aware of Cyclistic and use the service for their mobility needs, they have **not committed** to an annual plan. The goal is to determine how to effectively convert these casual riders into annual members, as financial analysts have concluded members are much more profitable.
+The Director of Marketing, Lily Moreno believes the company's future success depends on maximizing the number of annual memberships. The problem is that Casual Members are aware of Cyclistic and their services, but they haven't converted to annual memberships. The goal is to determine how to effectively convert these casual riders into annual members as financial analysts concluded that annual members provide more value for the company. 
 
 
 **How can my insights drive business decisions?** 
 
-My insights will reveal the specific behavioral differences between how annual members and casual riders use the bikes. By understanding these differences (such as trip duration, frequency, or preferred days of the week), the marketing team can design a targeted strategy that specifically appeals to casual riders to encourage them to join. High-quality insights and visualizations are required to get approval from the Cyclistic executive team.
+My insights will reveal the specific behavioral differences between how annual members and casual riders use the bikes. Based on differences like trip duration, frequency and preferred days of the week, the marketing team can craft a strategy that appeals to casual riders to encourage them to join the membership. To get the approval from the Cyclisitc executive team, high-quality insights and visualizations were made. 
 
 
 **Key Stakeholders**
 
 - Director of Marketing: Lily Moreno. She is responsible for developing campaigns and assigned me this specific problem. 
-- Cyclistic Executive Team: The detail-oriented executives who will decide whether to approve the recommended marketing program based on my data insights.
+- Cyclistic Executive Team: The executives who will decide whether to approve the recommended marketing program based on my data insights.
 -  Cyclistic Marketing Analytics Team: My team of peers who act as secondary stakeholders in guiding the marketing strategy.
--  
+
 
 **Clear Statement of the business task**
 
@@ -58,12 +81,14 @@ My insights will reveal the specific behavioral differences between how annual m
 
 
 **Data Location and Source:**
-I used Cyclistic’s **historical trip data** to analyse and identify trends. The data is publicy available. The data is organized in 12 monthly CSV files covering historical trip data. 
-**Integrity:** The data is first-party data collected directly by Cyclistic ensuring reliability and accuracy for identifying patterns. It covers a full calendar year, allowing to analyse seasonality and includes start/end times, station names and bike types. 
-Privacy: All riders’ PII (personally identifiable information) has been removed, such as connections to credit card numbers. Due to this anonymity restriction, I cannot track if a casual rider is the same person taking multiple trips or different people. 
+I used Cyclistic’s **historical trip data** which is publicly available to analyze and understand the trends. The data is organized in 12 monthly CSV files which covers historical trip data. 
 
-I downloaded the **12 zip files** containing data from each month of the year 2024 through the Divvy Trip Data website (Data: [Divvy Tripdata (S3 Index)]({{ site.data_sources.divvy_link }})). 
-I created a folder on my computer named Cyclicstic_Project. Inside I created 01_Raw_Data and 02_Cleaned_Data so I could have an **original copy of the raw data** and use the second to edit and clean the data. 
+**Integrity:** The data is first-party data collected directly by Cyclistic ensuring reliability and accuracy. It covers a year of data, allowing to analyse seasonality and includes start/end times, station names and bike types. 
+
+**Privacy:** All riders’ PII (personally identifiable information) has been removed, such as connections to credit card numbers. Due to this anonymity restriction, I cannot track if a casual rider is the same person taking multiple trips or different people. 
+
+I downloaded the **12 zip files** containing data from each month of the year 2024 through the Divvy Trip Data website (Data: [Divvy Tripdata (S3 Index)]({{ site.data_sources.divvy_link }})) and made a copy of the data, so I had a copy to be able to edit and clean. 
+
 
 
 **⚙️Process Phase**
@@ -81,7 +106,7 @@ Two new columns required for analysis were created:
 The dataset was filtered to remove outliers and null values:
 - Removed Nulls: Excluded rows where start_station_name or end_station_name were missing (IS NOT NULL).
 - Removed Outliers: Filtered out rides with a duration less than 1 minute (likely false starts or docking errors) and rides over 24 hours (1440 minutes). 
-This cleaning process ensured the integrity of the data by creating a final table only with rows that met the **necessary criteria** (no nulls and valid duration).
+
 
 
 
@@ -121,8 +146,8 @@ Both groups of customers peak in the summer months, although the casual riders a
 **Strategy Implication:**
 To convert casual riders, marketing strategies should not focus on "utility" or "commuting" (which they don't do), but rather on the financial benefit of an annual pass for "weekend fun" or seasonal summer usage.
 
-Due to the significant volume of the dataset (approximately 5.7 million rows), directly importing raw data into Tableau Public caused performance latency and file-size constraints. To resolve this, I performed SQL-based aggregation in BigQuery to create a streamlined summary table.
-By grouping the data by date and user type within the database, I pre-calculated key metrics (ride count and average duration). This reduced the dataset size from over 1 GB to less than 1 MB while preserving the daily granularity required for analysis, ensuring the final dashboard is both responsive and efficient.
+The large data volume (5.7 million rows) made importing raw data into Tableau Public difficult due to  performance latency and file-size constraints. To resolve this, I performed SQL-based aggregation in BigQuery to create a streamlined summary table.
+By grouping the data by date and user type within the database, I pre-calculated key metrics (ride count and average duration), significantly reducing the data set size.
 
 
 **Casual vs Member Total Rides:**
@@ -151,21 +176,18 @@ By grouping the data by date and user type within the database, I pre-calculated
 
 **Answering the Business Question:**
 
-Yes, this analysis successfully answered the question. We can see that the data revealed distinct and opposing behavioral patterns in how the two groups use the product. The Annual Members use the system for commuting (shorter and more predictable trips) while the Casual Riders use the system for leisure purposes (longer and weekend-concentrated trips).
+Yes, this analysis successfully answered the question. We can see that the data revealed different behavioral patterns in how the two groups use the product. The Annual Members use the system for commuting (shorter and more predictable trips) while the Casual Riders use the system for leisure purposes (longer and weekend-concentrated trips).
 
 
 **Findings:**
 The Commuters usage creates a bell curve during the week, as the primary use is during working hours and working days. 
-The Leisure riders usage creates a bowl shape where ridership surges on the weekend. They ride around 2x longer and primarily on the weekend. This indicates that the marketing team could use a utility for commuting ad for members and focus on leisure ads for the casual riders.
+The Leisure riders usage creates a bowl shape where ridership increases on the weekend. They ride around 2x longer and primarily on the weekend. This shows that the marketing team could use a utility for commuting ad for members and focus on leisure ads for the casual riders.
 
-
-**Communication Strategy:**
-To communicate with the stakeholders, concise and high-level visual insights are the best option. They wouldn’t need to see SQL code. They want easily identifiable trends through visualizations to justify spending more on marketing. 
 
 
 **Data Visualization:**
 To create visualizations that would communicate clearly and provide easily identifiable trends, line charts for weekly and seasonal ridership between both groups was a powerful tool that clearly shows trends over time. To show average ride length between Casual Riders and Members, a simple bar chart was the most effective. 
-I chose Red for the Casual Riders (Target Audience) and Gray for the Members (baseline audience) to provide a quick high-contrast difference between the two and to direct attention. I added clear titles with description of the visuals so the takeaways are immediate. 
+I chose Red for the Casual Riders and Gray for the Members to provide a quick high-contrast difference between the two and to direct attention. I added clear titles with description of the visuals so the takeaways are quicker.
 
 
 ### Visualizations
@@ -207,21 +229,12 @@ I chose Red for the Casual Riders (Target Audience) and Gray for the Members (ba
 **🌐Act Phase:**
 
 **Final Conclusion**
-Based on the analysis, the difference between the two groups is clear: Cyclistic serves two distinct markets.
-Annual Members are "Commuters" who use the system for quick, predictable travel to work or school during the week.
-Casual Riders are "Leisure Users" who use the system for fun, exercise, or tourism, primarily on weekends and during the summer months.
 
-
-**Conclusion:**
-The current marketing strategy which focuses on utility and commuting—is missing the mark with Casual riders. To convert them, we must pivot to selling "entertainment" and "weekend access."
+The current marketing strategy which focuses on utility and commuting—is missing the mark with Casual riders. To convert them, Cyclisitc should focus on selling "entertainment" and "weekend access."
 
 
 **How to Apply these Insights:**
 The marketing team can apply these insights by segmenting the marketing strategy. Instead of just marketing that the service can get from one point to another, it should distinguish between Casual riders where the marketing should focus on messages that encourage exploration and leisure activities and be more focused on peak months in the summer. 
-
-
-**Stakeholder Next Steps:**
-The director of marketing Lily Moreno should review the findings to approve this new campaign. The marketing team should develop new creative assets that support this new narrative. The executive team should evaluate the financial feasibility of the campaign. 
 
 
 **Additional Data Opportunities:**
