@@ -13,7 +13,6 @@
 This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I play the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
 
 <br>
-<br>
 
 **The Scenario**
 
@@ -40,7 +39,10 @@ The task is to analyze 12 months of historical trip data to identify behavioral 
 <br>
 
 **The Insight:**
+<br>
 My analysis reveals that Cyclistic serves two distinct markets: **Commuters** (Annual Members) who ride for utility during the week, and **Leisure Users** (Casual Riders) who ride for entertainment on weekends.
+
+<br>
 <br>
 
 **The Strategy:**
@@ -56,6 +58,7 @@ To convert Casual Riders, marketing must pivot from selling "commuting utility" 
 
 **❓Ask Phase**
 <br>
+
 **What is the business problem?**
 <br>
 The Director of Marketing, Lily Moreno believes the company's future success depends on maximizing the number of annual memberships. The problem is that Casual Members are aware of Cyclistic and their services, but they haven't converted to annual memberships. The goal is to determine how to effectively convert these casual riders into annual members as financial analysts concluded that annual members provide more value for the company. 
@@ -118,12 +121,17 @@ The dataset was filtered to remove outliers and null values:
 <br>
 
 **Data Field Types**
+
+<br>
 <br>
 
 ![data_fields](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203120.png?raw=true)
 <br>
 
+<br>
+
 **Example SQL Data**
+
 <br>
 
 ![sql_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true)
@@ -134,33 +142,54 @@ The dataset was filtered to remove outliers and null values:
 <br>
 
 **Analysis and Key Findings**
+
+<br>
+
 <br>
 **Data Organization:**
 To perform an effective analysis on the large dataset (approx. 5.7 million rows), the data was organized in Google BigQuery.
 I merged the 12 monthly files into one to facilitate analysis using SQL.
+
 <br>
+
 **Formatting:** The data was formatted by ensuring consistent column data types (Timestamp for dates, Float for duration). Two critical calculated columns were added to enable analysis: ride_length (calculated in minutes) and day_of_week (extracted from the start date).
+
 <br>
+
 **Aggregation:** For visualization performance, the data was further organized into a summary table grouped by date and user type, reducing file size so it would be easier to handle in Tableau. 
+
 <br>
 
 **Surprises in the Data**
+
 <br>
 
 **Ride Duration:**
 The most surprising discovery was the magnitude of the difference in ride duration. Casual riders consistently ride for around twice as much per trip than annual members. This strongly contradicts the assumption that members would use the service more intensively. 
+
 <br>
+
 **Seasonal Drop-off:**
 While a seasonal drop-off was expected, the data revealed that casual ridership drops a lot more intensely in winter months than members of the service, likely due to commuting needs, as members want to get their money’s worth even during the winter months. 
 <br>
+
 **Trends Identified:**
 Both groups of customers peak in the summer months, although the casual riders are much more sensitive to seasonality than members. 
+
 <br>
+
 **Strategy Implication:**
-To convert casual riders, marketing strategies should not focus on "utility" or "commuting" (which they don't do), but rather on the financial benefit of an annual pass for "weekend fun" or seasonal summer usage.
+
 <br>
+
+To convert casual riders, marketing strategies should not focus on "utility" or "commuting" (which they don't do), but rather on the financial benefit of an annual pass for "weekend fun" or seasonal summer usage.
+
+<br>
+
 The **large data volume** (5.7 million rows) made importing raw data into Tableau Public difficult due to  performance latency and file-size constraints. To resolve this, I performed SQL-based aggregation in BigQuery to create a streamlined summary table.
 By grouping the data by date and user type within the database, I pre-calculated key metrics (ride count and average duration), significantly reducing the data set size.
+
+<br>
 <br>
 
 **Casual vs Member Total Rides:**
@@ -183,13 +212,17 @@ By grouping the data by date and user type within the database, I pre-calculated
 <br>
 ![daysoftheweek_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-10%20162046.png?raw=true)
 
+<br>
 
 **✨Share Phase:**
 <br>
 
 **Answering the Business Question:**
+
 <br>
+
 Yes, this analysis successfully answered the question. We can see that the data revealed different behavioral patterns in how the two groups use the product. The Annual Members use the system for commuting (shorter and more predictable trips) while the Casual Riders use the system for leisure purposes (longer and weekend-concentrated trips).
+
 <br>
 
 **Findings:**
@@ -201,6 +234,7 @@ The Leisure riders usage creates a bowl shape where ridership increases on the w
 **Data Visualization:**
 To create visualizations that would communicate clearly and provide easily identifiable trends, line charts for weekly and seasonal ridership between both groups was a powerful tool that clearly shows trends over time. To show average ride length between Casual Riders and Members, a simple bar chart was the most effective. 
 I chose Red for the Casual Riders and Gray for the Members to provide a quick high-contrast difference between the two and to direct attention. I added clear titles with description of the visuals so the takeaways are quicker.
+
 <br>
 
 ### Visualizations
@@ -208,6 +242,7 @@ I chose Red for the Casual Riders and Gray for the Members to provide a quick hi
 
 **1. Average Ride Length**
 **Casual riders ride twice as long as members.**
+
 <br>
 <p align="center">
   <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%201.png?raw=trueE" width="320" height="600" alt="Weekly Usage">
@@ -217,6 +252,8 @@ I chose Red for the Casual Riders and Gray for the Members to provide a quick hi
 
 **2. Weekly Usage Patterns**
 **Casual riders dominate the weekends.**
+<br>
+
 <p align="center">
   <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%202.png?raw=true" width="520" height="550" alt="Weekly Usage">
 </p>
@@ -225,6 +262,7 @@ I chose Red for the Casual Riders and Gray for the Members to provide a quick hi
 
 **3. Seasonality**
 **Ridership peaks in July/August.**
+<br>
 
 <p align="center">
   <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Sheet%203.png?raw=true" width="700" height="550" alt="Weekly Usage">
@@ -240,7 +278,9 @@ I chose Red for the Casual Riders and Gray for the Members to provide a quick hi
 <br>
 
 **🌐Act Phase:**
+
 <br>
+
 **Final Conclusion**
 <br>
 The current marketing strategy which focuses on utility and commuting—is missing the mark with Casual riders. To convert them, Cyclisitc should focus on selling "entertainment" and "weekend access."
@@ -264,6 +304,7 @@ Due to data-privacy regulations, this analysis didn’t include age, gender or a
 Casual riders primarily use bikes on the weekends, which limits their perceived value of annual membership. By offering a one-month free trial specifically during June, a peak month, it shifts their behavior from weekend leisure to weekday utility. 
 
 Additionally, Cyclisitic could gamify this trial period. Users who complete at least 5 weekday trips while on the trial month would get a discount on the Annual Membership Plan. 
+
 <br>
 
 -	**Gamify the Riding Experience to Drive Conversion**
