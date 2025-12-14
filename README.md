@@ -136,8 +136,9 @@ The dataset was filtered to remove outliers and null values:
 
 **Example SQL Data**
 
-![sql_data](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203400.png?raw=true" width="1300" height="500" alt="Weekly Usage">
+</p>
 <br>
 
 **📑Analyze Phase:**
