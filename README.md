@@ -127,8 +127,9 @@ The dataset was filtered to remove outliers and null values:
 **Data Field Types**
 
 <br>
-
-![data_fields](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203120.png?raw=true)
+<p align="center">
+  <img src="https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203120.png?raw=true" width="250" height="250" alt="Weekly Usage">
+</p>
 <br>
 
 <br>
