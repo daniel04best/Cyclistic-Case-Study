@@ -33,7 +33,6 @@ The task is to analyze 12 months of historical trip data to identify behavioral 
 - Tableau: For creating interactive dashboards and visualizing usage trends.
 
 <br>
-<br>
 
 ## 🚀 Executive Summary: Strategic Recommendations
 <br>
@@ -42,7 +41,6 @@ The task is to analyze 12 months of historical trip data to identify behavioral 
 <br>
 My analysis reveals that Cyclistic serves two distinct markets: **Commuters** (Annual Members) who ride for utility during the week, and **Leisure Users** (Casual Riders) who ride for entertainment on weekends.
 
-<br>
 <br>
 
 **The Strategy:**
@@ -58,29 +56,35 @@ To convert Casual Riders, marketing must pivot from selling "commuting utility" 
 
 **❓Ask Phase**
 <br>
+<br>
 
 **What is the business problem?**
 <br>
 The Director of Marketing, Lily Moreno believes the company's future success depends on maximizing the number of annual memberships. The problem is that Casual Members are aware of Cyclistic and their services, but they haven't converted to annual memberships. The goal is to determine how to effectively convert these casual riders into annual members as financial analysts concluded that annual members provide more value for the company. 
+
 <br>
 
 **How can my insights drive business decisions?** 
+
 <br>
+
 My insights will reveal the specific behavioral differences between how annual members and casual riders use the bikes. Based on differences like trip duration, frequency and preferred days of the week, the marketing team can craft a strategy that appeals to casual riders to encourage them to join the membership. To get the approval from the Cyclisitc executive team, high-quality insights and visualizations were made. 
+
 <br>
 
 **Key Stakeholders**
+
 <br>
 - Director of Marketing: Lily Moreno. She is responsible for developing campaigns and assigned me this specific problem. 
 - Cyclistic Executive Team: The executives who will decide whether to approve the recommended marketing program based on my data insights.
 -  Cyclistic Marketing Analytics Team: My team of peers who act as secondary stakeholders in guiding the marketing strategy.
+
 <br>
 
 **Clear Statement of the business task**
 <br>
 "The business task is to analyze Cyclistic's historical usage data to identify distinct behavioral differences between annual members and casual riders. These insights will be used to support the marketing team in designing a data-driven strategy to convert casual riders into profitable annual members."
 
-<br>
 <br>
 
 **✅Prepare Phase**
@@ -123,7 +127,6 @@ The dataset was filtered to remove outliers and null values:
 **Data Field Types**
 
 <br>
-<br>
 
 ![data_fields](https://github.com/daniel04best/Cyclistic-Case-Study/blob/main/Screenshot%202025-12-13%20203120.png?raw=true)
 <br>
@@ -139,6 +142,7 @@ The dataset was filtered to remove outliers and null values:
 <br>
 
 **📑Analyze Phase:**
+
 <br>
 
 **Analysis and Key Findings**
@@ -237,7 +241,7 @@ I chose Red for the Casual Riders and Gray for the Members to provide a quick hi
 
 <br>
 
-### Visualizations
+### **Visualizations**
 <br>
 
 **1. Average Ride Length**
@@ -271,7 +275,7 @@ I chose Red for the Casual Riders and Gray for the Members to provide a quick hi
 
 
 
-**Check out the interactive dashboard on Tableau Public:**
+### **Check out the interactive dashboard on Tableau Public:**
  (Data: [TableauSite]({{ site.visualizations.tableau_link }}))
 
 <br>
@@ -295,7 +299,7 @@ Due to data-privacy regulations, this analysis didn’t include age, gender or a
 
 <br>
 
-**Top Three Recommendations based on the 12 months of trip data:**
+### **Top Three Recommendations based on the 12 months of trip data:**
 
 <br>
 
