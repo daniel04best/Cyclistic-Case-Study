@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({{ site.social.linkedin_url }})
 
 
-**📒Introduction**
+### **📒Introduction**
 
 This case study is the capstone project for the Google Data Analytics Professional Certificate. In this scenario, I play the role of a Junior Data Analyst working for Cyclistic, a fictional bike-share company in Chicago.
 
